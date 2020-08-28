@@ -22,16 +22,20 @@ body {
   left: 0;
   height: 75px;
   width: 100%;
-  background: red;
+  background: #be3144;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 1.5rem;
 }
 
 .nav-list{
   display: flex;
   justify-content: center;
   list-style: none;
-  width: 300px;
 }
 
 #welcome {
@@ -49,6 +53,11 @@ li {
   display: flex;
   align-items: center;
   padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 

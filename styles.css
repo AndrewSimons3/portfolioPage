@@ -4,14 +4,11 @@
   box-sizing: inherit;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
 .fullpage {
   display: flex;
   margin: 0;
   flex-direction: column;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav{

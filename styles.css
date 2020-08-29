@@ -57,16 +57,19 @@ a {
   color: white;
 }
 
-.projects-section {
+#projects{
   text-align: center;
-  padding: 10rem 2rem;
-  background: blue;
+  padding: 4rem 2rem;
+  background-color: #45567d;
 }
 
 .projects-section-header {
+  display: flex;
+  justify-content: center;
   max-width: 640px;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto 3rem auto;
   border-bottom: 0.2rem solid white;
+  font-size: 2em;
 }
 
 .projects-grid {
@@ -86,19 +89,22 @@ a {
 }
 
 .project-image {
-  height: 100px;
   width: 100%;
   object-fit: cover;
 }
 
 .project-title {
-  font-size: 2rem;
-  padding: 2rem 0.5rem;
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
 }
 
 .code {
   color: gray;
   transition: color 0.3s ease-out;
+}
+
+h2 {
+  font-size: 4.2 rem;
 }
 
 

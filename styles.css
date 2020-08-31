@@ -120,7 +120,7 @@ h2 {
     text-align: center;
     height: 80vh;
     padding: 0 2rem;
-    background: gray
+    background: lightseagreen;
 }
 
 .contact-section-header h2 {
@@ -148,12 +148,7 @@ h2 {
   border-radius: 2px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.fa, .fab, .fal, .far, .fas {
+.fa .fab .fal .far .fas {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -161,8 +156,18 @@ a {
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
-  height: 20px;
-  width: 20px;
 }
 
+.fa-facebook-square:before {
+  content: "\f082";
+  font-weight: 900;
+}
+
+.fa-github:before {
+  content: "\f09b";
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
 

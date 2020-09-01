@@ -144,6 +144,21 @@ a {
   border-radius: 2px;
 }
 
+btn-show-all {
+  font-size: 2rem;
+  background: gray;
+  
+}
+
+fa-chevron-right:before {
+  content: "\f054";
+}
+
+.btn-show-all > i {
+  margin-left: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+
 .fa .fab .fal .far .fas {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

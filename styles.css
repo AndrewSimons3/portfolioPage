@@ -144,13 +144,16 @@ a {
   border-radius: 2px;
 }
 
-btn-show-all {
-  font-size: 2rem;
+.btn-show-all {
+  font-size: 1rem;
   background: gray;
-  
+  transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
 }
 
-fa-chevron-right:before {
+.fa-chevron-right:before {
   content: "\f054";
 }
 
@@ -158,6 +161,7 @@ fa-chevron-right:before {
   margin-left: 10px;
   transform: translateX(0);
   transition: transform 0.3s ease-out;
+}
 
 .fa .fab .fal .far .fas {
   -moz-osx-font-smoothing: grayscale;

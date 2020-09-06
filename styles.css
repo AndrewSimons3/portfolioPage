@@ -46,6 +46,10 @@
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
+.profile-pic {
+  
+}
+
 
 h1 {
     font-size: 6rem;
@@ -74,7 +78,7 @@ a {
   max-width: 640px;
   margin: 0 auto 3rem auto;
   border-bottom: 0.2rem solid white;
-  font-size: 2em;
+  font-size: 40px;
 }
 
 .projects-grid {

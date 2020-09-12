@@ -125,6 +125,13 @@ a {
   object-fit: cover;
 }
 
+.project-image-feature:hover {
+  transform:scale(1.1,1.1);
+  -webkit-transform:scale(1.1,1.1);
+  -moz-transform:scale(1.1,1.1);
+  transition: all .5s ease-in-out; 
+}
+
 .project-title {
   font-size: 1rem;
   padding: 1rem 0.5rem;
@@ -173,25 +180,12 @@ a {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
+  background: grey;
 }
 
-.btn-show-all {
-  font-size: 1rem;
-  background: gray;
-  transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
-    transition-delay: 0s;
-}
 
 .fa-chevron-right:before {
   content: "\f054";
-}
-
-.btn-show-all > i {
-  margin-left: 10px;
-  transform: translateX(0);
-  transition: transform 0.3s ease-out;
 }
 
 .fa .fab .fal .far .fas {

@@ -92,18 +92,6 @@ header {
   background-color: #000;
 }
 
-.welcome-title {
-  font-family: 'Raleway', sans-serif;
-  font-size: 6rem;
-  font-weight: 700;
-}
-
-.welcome-message {
-  color: #be3144;
-  font-size: 3rem;
-  font-weight: 200;
-  font-style: italic;
-}
 
 li {
   padding: 10px;

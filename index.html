@@ -2,90 +2,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/reset_style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/site.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title>Andrew's Portfolio</title>
 </head>
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
 <body>
-  <nav>
-    <header>
-      <div id="heading">
-        <h1>Andrew Simons</h1>
-        <h2>Web Dev | Austin, Tx</h2>
-      </div>
-    </header>
-
-     
-  </nav> 
-  <section id="welcome">
-    <h1 class="welcome-title">Andrew Simons</h1>
-    <p class="welcome-message">Web Developer</p>
-  </section>
-  <section id="projects">
-    <h2 class="projects-section-header">Projects</h2>
-      <div class="projects-grid">
-        <a class=project-image-feature href="https://price-calculator-26fca.web.app/login" target="_blank" class="project project-tile">
-          <img class="project-image" src="images/360.jpg" alt="project">
-          <p class="project-title">
-            <span class="code"></span>
-              Pricing Calculator
-            <span class="code"></span>
-          </p>
-        </a>
-
-        <a class=project-image-feature href="" target="_blank" class="project project-tile">
-          <img class="project-image" src="images/Business.png" alt="project">
-          <p class="project-title">
-            <span class="code"></span>
-              Business Listing App
-            <span class="code"></span>
-          </p>
-        </a>
-
-        <a class=project-image-feature href="" target="_blank" class="project project-tile">
-          <img class="project-image" src="images/Music.png" alt="project">
-          <p class="project-title">
-            <span class="code"></span>
-              Music Dashboard App
-            <span class="code"></span>
-          </p>
-        </a>
-
-        <a class=project-image-feature href="" target="_blank" class="project project-tile">
-          <img class="project-image" src="" alt="project">
-          <p class="project-title">
-            <span class="code"></span>
-              Mama Chekuru's Bakery
-            <span class="code"></span>
-          </p>
-        </a>
-      </div>
-      <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">
-        Show all<i class="fas fa-chevron-right"></i>
-      </a>
-  </section>
-  <section id="contact">
-    <div class="contact-section-header">
-      <h2>Let's work together...</h2>
-      <p>How do you take your coffee?</p>
-      </div>
-      <div class="contact-links">
-        <a href="https://www.facebook.com/andrew.simons.71619/" target="_blank" class="btn contact-details">
-          <i class="fab fa-facebook-square"></i> Facebook
-        </a>
-        <a id="profile-link" href="https://github.com/AndrewSimons3" target="_blank" class="btn contact-details">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-        <a href="https://twitter.com/andrewmsimons" target="_blank" class="btn contact-details">
-          <i class="fab fa-twitter"></i> Twitter
-        </a>
-        <a href="simdrew07@gmail.com" class="btn contact-details">
-          <i class="fas fa-at"></i> Send e-mail
-        </a>
-        <a href="tel:512-944-9351" class="btn contact-details">
-          <i class="fas fa-mobile-alt"></i> Call me
-        </a>
+  <div id="container">
+    <nav>
+      <header>
+        <div id="heading">
+          <h1>Andrew Simons</h1>
+          <h2>Web Dev | Austin, Tx</h2>
         </div>
-  </section>
+      </header>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a id="nav-projects" class="nav-link" href="#projects">work</a>
+        </li>
+        <li class="nav-item">
+          <a id="nav-about" class="nav-link active" href="#about">about</a>
+        </li>
+      </ul>
+
+      
+    </nav> 
+    <section id="welcome">
+    </section>
+    <section id="projects">
+      <h2 class="projects-section-header">Projects</h2>
+        <div class="projects-grid">
+          <a class=project-image-feature href="https://price-calculator-26fca.web.app/login" target="_blank" class="project project-tile">
+            <img class="project-image" src="images/360.jpg" alt="project">
+            <p class="project-title">
+              <span class="code"></span>
+                Pricing Calculator
+              <span class="code"></span>
+            </p>
+          </a>
+
+          <a class=project-image-feature href="" target="_blank" class="project project-tile">
+            <img class="project-image" src="images/Business.png" alt="project">
+            <p class="project-title">
+              <span class="code"></span>
+                Business Listing App
+              <span class="code"></span>
+            </p>
+          </a>
+
+          <a class=project-image-feature href="" target="_blank" class="project project-tile">
+            <img class="project-image" src="images/Music.png" alt="project">
+            <p class="project-title">
+              <span class="code"></span>
+                Music Dashboard App
+              <span class="code"></span>
+            </p>
+          </a>
+
+          <a class=project-image-feature href="" target="_blank" class="project project-tile">
+            <img class="project-image" src="" alt="project">
+            <p class="project-title">
+              <span class="code"></span>
+                Mama Chekuru's Bakery
+              <span class="code"></span>
+            </p>
+          </a>
+        </div>
+        <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">
+          Show all<i class="fas fa-chevron-right"></i>
+        </a>
+    </section>
+    <section id="contact">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.facebook.com/andrew.simons.71619/" target="_blank" class="btn contact-details">
+            <i class="fab fa-facebook-square"></i> Facebook
+          </a>
+          <a id="profile-link" href="https://github.com/AndrewSimons3" target="_blank" class="btn contact-details">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://twitter.com/andrewmsimons" target="_blank" class="btn contact-details">
+            <i class="fab fa-twitter"></i> Twitter
+          </a>
+          <a href="simdrew07@gmail.com" class="btn contact-details">
+            <i class="fas fa-at"></i> Send e-mail
+          </a>
+          <a href="tel:512-944-9351" class="btn contact-details">
+            <i class="fas fa-mobile-alt"></i> Call me
+          </a>
+          </div>
+    </section>
+  </div>
 </body>
 </html>

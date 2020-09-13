@@ -66,16 +66,12 @@ header {
   margin-top: 1.5px;
 }
 
-.nav-tabs .nav-link.active {
-  color: black;
-  border-color: white white
-}
-
 .nav-tabs .nav-link {
   color: white;
   border: 1px solid transparent;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
+  background-color: black;
 }
 
 .nav-link:hover {
@@ -115,6 +111,7 @@ li {
 
 a {
   text-decoration: none;
+  background-color: transparent;
 }
 
 #projects{
@@ -162,10 +159,11 @@ a {
 .project-title {
   font-size: 1rem;
   padding: 1rem 0.5rem;
+  color: black;
 }
 
 .code {
-  color: gray;
+  text-decoration: none;
   transition: color 0.3s ease-out;
   transition-property: color;
   transition-duration: 0.3s;

@@ -38,8 +38,6 @@ header {
 #heading h1 {
   font: 1.2em 'Roboto Slab', serif;
   font-weight: lighter;
-  letter-spacing: .1em;
-  padding-left: .3em;
   color: white;
 }
 

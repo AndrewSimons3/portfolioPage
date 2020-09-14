@@ -1,6 +1,6 @@
 body {
   font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  background-color: black;
+  background-color: white;
 }
 
 #container {
@@ -12,7 +12,7 @@ body {
 nav{
   padding: 15px 15px 0 15px;
   top: 0;
-  background-color: black;
+  background-color: white;
   z-index: 1;
   width: 100%;
 }
@@ -38,18 +38,18 @@ header {
 #heading h1 {
   font: 1.2em 'Roboto Slab', serif;
   font-weight: lighter;
-  color: white;
+  color: teal;
 }
 
 #heading h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   letter-spacing: .075em;
-  color: white;
+  color: teal;
 }
 
 .nav-tabs {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid teal;
 }
 
 .nav-link {
@@ -65,24 +65,21 @@ header {
 }
 
 .nav-tabs .nav-link {
-  color: white;
+  color: teal;
   border: 1px solid transparent;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
-  background-color: black;
 }
 
-.nav-link:hover {
-  text-decoration: none;
-}
 
 .nav-tabs .nav-link:hover {
   transition: .5s ease-in-out;
+  text-decoration:none;
 }
 
-#welcome {
-  background-color: #000;
-}
+/* #welcome {
+  background-color: white;
+} */
 
 #about-container {
   display: grid;
@@ -90,6 +87,7 @@ header {
   grid-row-gap: 1em;
   grid-column-gap: 2em;
   grid-template-areas: "left right";
+  margin: 10%;
 }
 
 #about-left {
@@ -115,7 +113,7 @@ header {
 }
 
 .about-text p {
-  color: white;
+  color: black;
   text-align: justify;
 }
 
@@ -132,7 +130,6 @@ a {
 #projects{
   text-align: center;
   padding: 4rem 2rem;
-  background-color: black
 }
 
 .projects-section-header {
@@ -140,7 +137,7 @@ a {
   justify-content: center;
   font: 3em 'Roboto Slab', serif;
   font-weight: lighter;
-  color: white;
+  color: teal;
   margin-bottom: 40px;
 }
 
@@ -155,7 +152,6 @@ a {
 }
 
 .project {
-  background: gray;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
@@ -176,7 +172,7 @@ a {
 .project-title {
   font: 1.2em 'Roboto Slab', serif;
   font-weight: lighter;
-  color: white;
+  color: teal;
 }
 
 .code {
@@ -224,7 +220,7 @@ a {
 .btn {
   font: 1.2em 'Roboto Slab', serif;
   font-weight: lighter;
-  color: white;
+  color: teal;
 }
 
 

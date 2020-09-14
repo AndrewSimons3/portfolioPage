@@ -90,6 +90,22 @@ header {
   background-color: #000;
 }
 
+.about {
+  margin: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 1em;
+  grid-column-gap: 2em;
+}
+
+.about-pic {
+  width: 300px;
+}
+
+.about-p {
+  color: white;
+}
+
 
 li {
   padding: 10px;

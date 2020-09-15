@@ -14,7 +14,7 @@ body {
 }
 
 nav{
-  padding: 15px 15px 0 15px;
+  padding: 15px 30px 0 30px;
   top: 0;
   background-color: white;
   z-index: 1;
@@ -52,6 +52,8 @@ header {
   color: teal;
 }
 
+
+
 .nav-tabs {
   border-bottom: 1px solid teal;
 }
@@ -81,9 +83,14 @@ header {
   text-decoration:none;
 }
 
-/* #welcome {
-  background-color: white;
-} */
+#welcome {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid teal;
+}
 
 #about-container {
   display: grid;
@@ -138,9 +145,9 @@ a {
 .projects-section-header {
   display: flex;
   justify-content: center;
-  font: 3em 'Roboto Slab', serif;
+  font: 3em 'Open Sans';
   font-weight: lighter;
-  color: teal;
+  color: black;
   margin-bottom: 40px;
 }
 
@@ -173,9 +180,9 @@ a {
 }
 
 .project-title {
-  font: 1.2em 'Roboto Slab', serif;
+  font: 1.2em 'Open Sans';
   font-weight: lighter;
-  color: teal;
+  color: black;
 }
 
 .code {
@@ -221,14 +228,9 @@ a {
 }
 
 .btn {
-  font: 1.2em 'Roboto Slab', serif;
+  font: 2em 'Open Sans';
   font-weight: lighter;
-  color: teal;
-}
-
-
-.fa-chevron-right:before {
-  content: "\f054";
+  color: black;
 }
 
 .fa .fab .fal .far .fas {
@@ -244,7 +246,6 @@ a {
 
 .fa-facebook-square:before {
   content: "\f082";
-  font-weight: 900;
 }
 
 .fa-github:before {
@@ -255,3 +256,6 @@ a {
   content: "\f099";
 }
 
+.fa-chevron-right:before {
+  content: "\f054";
+}

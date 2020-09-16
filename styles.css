@@ -162,6 +162,8 @@ a {
 #projects{
   text-align: center;
   padding: 4rem 2rem;
+  border-bottom: 1px solid teal;
+  margin: 2.5%;
 }
 
 .projects-section-header {
@@ -222,8 +224,11 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 80vh;
+    height: 100%;
     padding: 0 2rem;
+    border-bottom: 1px solid teal;
+    margin: 2.5%;
+    margin-bottom: 50px;
 }
 
 .contact-section-header h2 {

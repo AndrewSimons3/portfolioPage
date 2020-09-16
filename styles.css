@@ -90,6 +90,7 @@ header {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid teal;
+  margin: 2.5%;
 }
 
 #about-container {

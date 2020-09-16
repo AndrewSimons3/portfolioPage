@@ -123,12 +123,7 @@ header {
   align-items: center;
 }
 
-.about-text p {
-  color: black;
-  text-align: justify;
-}
-
-.btn {
+.btn-resume {
   color: #495057;
   font-family: 'Open Sans';
   text-decoration: none;
@@ -138,7 +133,33 @@ header {
   text-align: center;
 }
 
-.btn:hover {
+.about-text p {
+  color: black;
+  text-align: justify;
+}
+
+.btn-show-all {
+  color: #495057;
+  font-family: 'Open Sans';
+  text-decoration: none;
+  border: 1px solid #495057;
+  border-radius: .50rem;
+  padding: 14px;
+  text-align: center;
+}
+
+.btn-resume:hover {
+  border: 1px solid teal;
+  color: teal;
+  transition: .50s ease-in-out;
+  cursor: pointer;
+  opacity: 95%;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.btn-show-all:hover {
   border: 1px solid teal;
   color: teal;
   transition: .50s ease-in-out;
@@ -224,7 +245,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100%;
+    height: 75%;
     padding: 0 2rem;
     border-bottom: 1px solid teal;
     margin: 2.5%;

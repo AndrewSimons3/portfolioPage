@@ -184,7 +184,6 @@ a {
 #projects{
   text-align: center;
   padding: 4rem 2rem;
-  border-bottom: 1px solid teal;
   margin: 2.5%;
 }
 
@@ -285,17 +284,28 @@ a {
 
 #icons {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   position: fixed;
   right: 0;
-  bottom: 7vh;
-  padding: 20px;
+  bottom: 8px;
+  z-index: 2;
+  padding: 0;
+  margin-right: 5px;
 }
 
 #icons i {
+  color:#212529;
   padding: 0 20px;
   font-size: 30px;
+}
+
+#icons i:hover {
+  color: teal;
+  transition: .25s ease-in-out;
+  cursor: pointer;
+  opacity: 95%;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .line {

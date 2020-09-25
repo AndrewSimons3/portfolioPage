@@ -53,8 +53,6 @@ header {
   color: teal;
 }
 
-
-
 .nav-tabs {
   border-bottom: 1px solid teal;
 }
@@ -90,7 +88,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid teal;
   margin: 2.5%;
 }
 
@@ -312,7 +309,7 @@ a {
   position: fixed;
   bottom: 0;
   margin: 0 15px;
-  padding: 10px 0;
+  padding: 15px 0;
   width: calc(100% - 30px);
   border-top: 1px solid teal;
   font-size: 1em;

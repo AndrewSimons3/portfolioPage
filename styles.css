@@ -93,6 +93,8 @@ header {
 
 #about-container {
   display: grid;
+  width: 90vh;
+  height: 70vh;
   grid-template-columns:  minmax(0, 1fr) minmax(0, 1fr);
   grid-row-gap: 1em;
   grid-column-gap: 2em;
@@ -312,10 +314,5 @@ a {
   padding: 15px 0;
   width: calc(100% - 30px);
   border-top: 1px solid teal;
-  font-size: 1em;
-  letter-spacing: .05em;
-  display: flex;
-  justify-content: space-between;
   background-color: white;
-  z-index: 1;
 }

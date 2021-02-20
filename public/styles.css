@@ -103,7 +103,7 @@ header {
 }
 
 #about-left {
-  height: 70vh;
+  height: 60vh;
   width: 100%;
   grid-area: left;
   background-image: url(images/Andrew.jpeg);
@@ -116,6 +116,8 @@ header {
 }
 
 #about-right {
+  height: 60vh;
+  width: 100%;
   grid-area: right;
   display: flex;
   flex-direction: column;

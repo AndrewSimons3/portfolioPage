@@ -45,18 +45,18 @@ header {
 #heading h1 {
   font: 1.2em 'Roboto Slab', serif;
   font-weight: lighter;
-  color: teal;
+  color: whitesmoke;
 }
 
 #heading h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   letter-spacing: .075em;
-  color: teal;
+  color: whitesmoke;
 }
 
 .nav-tabs {
-  border-bottom: 1px solid teal;
+  border-bottom: 2px whitesmoke;
 }
 
 .nav-link {
@@ -72,7 +72,7 @@ header {
 }
 
 .nav-tabs .nav-link {
-  color: teal;
+  color: whitesmoke;
   border: 1px solid transparent;
   border-radius: .25em;
 }
@@ -81,7 +81,7 @@ header {
 .nav-tabs .nav-link:hover {
   transition: .5s ease-in-out;
   text-decoration:none;
-  border-color: teal;
+  border-color: whitesmoke;
 }
 
 #welcome {
@@ -128,10 +128,10 @@ header {
 }
 
 .btn-resume {
-  color: #495057;
+  color: whitesmoke;
   font-family: 'Open Sans';
   text-decoration: none;
-  border: 1px solid #495057;
+  border: 1px solid whitesmoke;
   border-radius: .50rem;
   padding: 14px;
   text-align: center;

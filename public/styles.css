@@ -2,10 +2,12 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  background-color: #b1bfd8;
-  background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
 }
 
 #container {
@@ -20,8 +22,8 @@ nav {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #b1bfd8;
-  background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
 }
 
 header {
@@ -137,12 +139,12 @@ header {
   text-align: center;
 }
 
-.about-text p {
-  color: black;
+#about-right{
+  color: whitesmoke;
   text-align: justify;
 }
 
-.btn-show-all {
+/* .btn-show-all {
   color: #495057;
   font-family: 'Open Sans';
   text-decoration: none;
@@ -150,11 +152,11 @@ header {
   border-radius: .50rem;
   padding: 14px;
   text-align: center;
-}
+} */
 
 .btn-resume:hover {
-  border: 1px solid teal;
-  color: teal;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
   transition: .50s ease-in-out;
   cursor: pointer;
   opacity: 95%;
@@ -163,7 +165,7 @@ header {
   transform: scale(1.03);
 }
 
-.btn-show-all:hover {
+/* .btn-show-all:hover {
   border: 1px solid teal;
   color: teal;
   transition: .50s ease-in-out;
@@ -172,7 +174,7 @@ header {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
-}
+} */
 
 
 li {
@@ -195,7 +197,7 @@ a {
   justify-content: center;
   font: 3em 'Open Sans';
   font-weight: lighter;
-  color: teal;
+  color: whitesmoke;
   margin-bottom: 40px;
 }
 
@@ -230,7 +232,7 @@ a {
 .project-title {
   font: 1.2em 'Open Sans';
   font-weight: lighter;
-  color: black;
+  color: whitesmoke
 }
 
 #contact {
@@ -287,13 +289,13 @@ a {
 }
 
 #icons i {
-  color:#212529;
+  color:whitesmoke;
   padding: 0 20px;
   font-size: 30px;
 }
 
 #icons i:hover {
-  color: teal;
+  color: whitesmoke;
   transition: .25s ease-in-out;
   cursor: pointer;
   opacity: 95%;
@@ -308,6 +310,7 @@ a {
   margin: 0 15px;
   padding: 15px 0;
   width: calc(100% - 30px);
-  border-top: 1px solid teal;
-  background-color: white;
+  border-top: 1px solid whitesmoke;
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
 }

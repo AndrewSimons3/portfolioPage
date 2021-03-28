@@ -1,8 +1,10 @@
+
+
 * {
   box-sizing: border-box;
 }
 
-
+/* @media screen and (min-width: 768px) { */
 
 body {
   font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -89,7 +91,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2.5%;
+  margin-top: 108.55px;
+  
 }
 
 #about-container {
@@ -100,7 +103,6 @@ header {
   grid-row-gap: 1em;
   grid-column-gap: 2em;
   grid-template-areas: "left right";
-  margin: 10%;
 }
 
 #about-left {
@@ -117,13 +119,13 @@ header {
 }
 
 #about-right {
-  height: 60vh;
+  /* height: 60vh;
   width: 100%;
   grid-area: right;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .btn-resume {
